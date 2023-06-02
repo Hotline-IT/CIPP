@@ -107,17 +107,5 @@
   },
   "mimeTypes": {
     ".json": "text/json"
-  },
-  "networking": {
-  "allowedIpRanges": ["AzureFrontDoor.Backend"]
-  },
-  "forwardingGateway": {
-  "requiredHeaders": {
-    "X-Azure-FDID" : "a0bc2c94-b876-45c8-8b11-31f408ea6a4a"
-  },
-  "allowedForwardedHosts": [
-    "cipp-frontdoor-dvh4atdndwavcgc0.z01.azurefd.net",
-    "cipp.hotlineit.com"
-  ]
   }
 }
